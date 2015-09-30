@@ -1,6 +1,7 @@
 # unetweaver_error
 Unity Project that contains compilable code, but 5.2 produces an UNetWeaver error
 
+```
 UNetWeaver error: Exception :System.ArgumentException: Offset and length were out of bounds for the array or count is greater than the number of elements from index to the end of the source collection.
   at System.Buffer.BlockCopy (System.Array src, Int32 srcOffset, System.Array dst, Int32 dstOffset, Int32 count) [0x000a7] in /Users/builduser/buildslave/mono-runtime-and-classlibs/build/mcs/class/corlib/System/Buffer.cs:112 
   at Mono.Cecil.Metadata.BlobHeap.Read (UInt32 index) [0x00000] in <filename unknown>:0 
@@ -24,3 +25,4 @@ Unity.UNetWeaver.Log:Error(String) (at /Users/builduser/buildslave/unity/build/E
 Unity.UNetWeaver.Weaver:WeaveAssemblies(IEnumerable`1, IEnumerable`1, IAssemblyResolver, String, String, String) (at /Users/builduser/buildslave/unity/build/Extensions/Networking/Weaver/UNetWeaver.cs:1647)
 Unity.UNetWeaver.Program:Process(String, String, String, String[], String[], IAssemblyResolver, Action`1, Action`1) (at /Users/builduser/buildslave/unity/build/Extensions/Networking/Weaver/Program.cs:34)
 UnityEditor.Scripting.Serialization.Weaver:WeaveUnetFromEditor(String, String, String, String, Boolean)
+```
